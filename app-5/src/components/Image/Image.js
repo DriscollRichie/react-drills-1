@@ -3,7 +3,7 @@ import React from 'react'
 export default function Image(props) {
   return(
     <div>
-      <img src={props.src} alt="noFap bitch"/>
+      <img src={props.src} alt="custom pic"/>
     </div>
   )
 }
