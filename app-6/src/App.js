@@ -8,7 +8,7 @@ class App extends Component {
     super()
     this.state = {
       input: '',
-      tasks: ['Clean room', 'push to Github', 'code at DevMtn', 'kill myself']
+      tasks: []
     }
     this.addTasks = this.addTasks.bind(this)
   }
